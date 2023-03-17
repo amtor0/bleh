@@ -213,6 +213,7 @@ function CreateLevel () {
     } else if (level == 2) {
         tiles.setCurrentTilemap(tilemap`level4`)
         tiles.placeOnRandomTile(FigureMan, sprites.dungeon.floorMixed)
+        tiles.placeOnRandomTile(Black_Figure, sprites.dungeon.floorMixed)
     } else {
         game.gameOver(true)
     }
